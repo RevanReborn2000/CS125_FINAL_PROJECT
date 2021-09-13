@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.finalprojectcs125.MainActivity">
+
+    <com.example.finalprojectcs125.enter_the_matrix
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:src="@drawable/background0"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="-95dp">
+
+        <Button
+            android:id="@+id/creditsButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="168dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="172dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Credits"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/secretButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="168dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/audiowide"
+            android:text=" cheat terminal "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/creditsButton" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="168dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Settings"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/creditsButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/clickergameButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="168dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Play"
+            app:layout_constraintBottom_toTopOf="@+id/settingsButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="391dp"
+            android:layout_height="591dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="29dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/audiowide"
+            android:fontStyle="italic"
+            android:text="CS HEROES: LORDS  OF COMPUTING"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="168dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="53dp"
+            android:fontFamily="@font/audiowide"
+            android:text="EXTRAS"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/secretButton" />
+
+        <ImageView
+            android:id="@+id/maus"
+            android:layout_width="114dp"
+            android:layout_height="138dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499"
+            app:srcCompat="@drawable/maus" />
+
+        <ImageView
+            android:id="@+id/keybd"
+            android:layout_width="198dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="11dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/clickergameButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/keyboard" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/black"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/clickerButtonChange1"
+            android:layout_width="116dp"
+            android:layout_height="89dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/background1"
+
+            android:fontFamily="@font/audiowide"
+            android:paddingBottom="55dp"
+            android:text="LOCKED"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/clickerButtonChange2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/clickerButtonChange2"
+            android:layout_width="116dp"
+            android:layout_height="89dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background2"
+            android:fontFamily="@font/audiowide"
+            android:paddingBottom="50dp"
+            android:text="LOCKED"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/clickerButtonChange3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/clickerButtonChange3"
+            android:layout_width="116dp"
+            android:layout_height="89dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background3"
+            android:fontFamily="@font/audiowide"
+            android:paddingBottom="55dp"
+            android:text="LOCKED"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/clickerButtonChange4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/clickerButtonChange4"
+            android:layout_width="116dp"
+            android:layout_height="89dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background4"
+            android:fontFamily="@font/audiowide"
+            android:paddingBottom="55dp"
+            android:text="LOCKED"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/clickerButtonChange5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/returnToUpgradePg1"
+            android:layout_width="407dp"
+            android:layout_height="66dp"
+            android:background="@android:color/holo_red_dark"
+            android:drawableTop="@android:drawable/ic_menu_revert"
+            android:fontFamily="@font/audiowide"
+            android:text="RETURN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/clickerButtonChange5"
+            android:layout_width="116dp"
+            android:layout_height="89dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background5"
+            android:backgroundTintMode="src_atop"
+            android:fontFamily="@font/audiowide"
+            android:paddingBottom="55dp"
+            android:text="LOCKED"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/returnToUpgradePg1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/clickerButtonChange0"
+            android:layout_width="116dp"
+            android:layout_height="89dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/background0"
+            android:fontFamily="@font/audiowide"
+            android:paddingBottom="50dp"
+            android:text="LOCKED"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/clickerButtonChange1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454" />
+
+        <TextView
+            android:id="@+id/era0description"
+            android:layout_width="263dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="15dp"
+            android:text="-- Leave Python at the door, it's time for CS125.\n\n Click the banner under which CS 125  students code.\n\n  EQUIPS: CS 125 clicker ( DEFAULT)."
+            android:textAlignment="center"
+            android:textColor="#FDECE0E0"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toTopOf="@+id/era1description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clickerButtonChange0" />
+
+        <TextView
+            android:id="@+id/era1description"
+            android:layout_width="266dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="13dp"
+            android:text="-- Enigma doesn't stand a chance.\n \n Click the father of modern Computer Science. \n\n EQUIPS: Alan Turing clicker. (COST: 5000 Pts.)"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toTopOf="@+id/era2description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clickerButtonChange1" />
+
+        <TextView
+            android:id="@+id/era2description"
+            android:layout_width="263dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="16dp"
+            android:text="-- You can  (only)  call  him Geoff.\n\n Click the father of CS 125.\n\nEQUIPS: Geoff Clicker. (COST: 10000 Pts.)"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toTopOf="@+id/era3description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clickerButtonChange2" />
+
+        <TextView
+            android:id="@+id/era3description"
+            android:layout_width="263dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:text='--  "And he forged one engineer to rule them all.."\n\n Click the father of modern Innovation. \n\n  EQUIPS: Elon Musk clicker. (COST: 15000 Pts.)'
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toTopOf="@+id/era4description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/clickerButtonChange3" />
+
+        <TextView
+            android:id="@+id/era4description"
+            android:layout_width="263dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="-- Just because he dropped out doesn't mean you should too. \n\n Click the father of Social media.\n\n EQUIPS: Mark Zuckerburg clicker. (COST: 20000 Pts.)"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="10.5sp"
+            app:layout_constraintBottom_toTopOf="@+id/era5description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clickerButtonChange4" />
+
+        <TextView
+            android:id="@+id/era5description"
+            android:layout_width="263dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="9dp"
+            android:text='--  "It just works!"\n\nClick the father of pretty worlds with ugly bugs and glitches.\n\n EQUIPS: Todd Howard clicker. (COST: 25000 Pts.)'
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toTopOf="@+id/returnToUpgradePg1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/clickerButtonChange5" />
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="323dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="48dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Available Unlocks:"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
